@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-template <typename Tesao>
-void print(Tesao a, Tesao b)
+template <typename T>
+void print(T a, T b)
 {
 	Tesao c = a + b;
 	cout << a << " + " << b << " = " << c << endl;
